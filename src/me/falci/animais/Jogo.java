@@ -36,7 +36,7 @@ public class Jogo {
 
 	private void pedirParaPensarEmUmAnimal() {
 		escritor.escrever("Pense em um animal...")
-				.escrever("<aperte alguma teclar para continuar>");
+				.escrever("<aperte enter para continuar>");
 		
 		leitor.esperarTecla();
 	}
